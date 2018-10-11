@@ -10,7 +10,7 @@ Rust port of the [Tachyons CSS framework](http://tachyons.io/).
 
 ## Examples
 ### Basic
-```rs
+```rust
 extern crate html_index;
 extern crate tachyons;
 
