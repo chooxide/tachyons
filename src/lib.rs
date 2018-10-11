@@ -4,9 +4,9 @@
 #![cfg_attr(test, deny(warnings))]
 #![forbid(unsafe_code, missing_debug_implementations)]
 
-#[macro_use]
-extern crate failure;
+/// Import `tachyons.css` framework
+pub const TACHYONS: &'static str =
+  include_str!("../tachyons-custom/css/tachyons.css");
 
-mod error;
-
-pub use error::{Error, ErrorKind, Result};
+/// Import the default configuration for `tachyons.css`.
+pub const TACHYONS_DEFAULT: &'static str = include_str!("variables.css");
