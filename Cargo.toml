@@ -1,0 +1,14 @@
+[package]
+name = "tachyons"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/chooxide/tachyons"
+documentation = "https://docs.rs/tachyons"
+description = "Rust port of the Tachyons CSS framework"
+authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
+readme = "README.md"
+
+[dependencies]
+failure = "0.1.2"
+
+[dev-dependencies]
