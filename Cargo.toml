@@ -9,3 +9,4 @@ authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
 readme = "README.md"
 
 [dev-dependencies]
+html-index = "0.1.0"
